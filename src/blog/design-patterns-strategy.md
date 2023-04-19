@@ -276,7 +276,7 @@ As you can see the concrete implementations of each of our strategies are create
 
 **Instead, we should use our abstract interfaces of strategies and inject concrete implementations through constructor injection.**
 
-If you don't know what Dependency Injection is and it's benefits go through it from [here](http://aatishrana.com/blog/dependency-injection)
+If you don't know what Dependency Injection is and it's benefits go through it from [here](/dependency-injection)
 
 <br>
 

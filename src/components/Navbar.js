@@ -1,5 +1,6 @@
 import { Link, graphql, useStaticQuery } from 'gatsby'
 import React from 'react'
+import * as styles from './Navbar.module.css'
 
 export default function Navbar() {
     const data = useStaticQuery(graphql`
@@ -24,17 +25,17 @@ export default function Navbar() {
 
     return (
         <nav>
-            <h1>Aatish Rana</h1>
-            <div>
+            <Link to="/">
+                <div className={styles.aatish}></div>
+                <h2 style={{ textAlign: "center" }}>Aatish Rana</h2>
+            </Link>
+
+            <div className={styles.blog_parent}>
                 {posts.map(post => (
                     <article key={post.id}>
                         <Link to={post.fields.slug}>
-                            <h2>{post.frontmatter.title}</h2>
+                            <h5>{post.frontmatter.title}</h5>
                         </Link>
-                        <small>
-                            {post.frontmatter.author}, {post.frontmatter.date}
-                        </small>
-                        <p>{post.excerpt}</p>
                     </article>
                 ))}
             </div>

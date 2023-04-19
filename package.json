@@ -14,8 +14,10 @@
   },
   "dependencies": {
     "gatsby": "^5.8.1",
+    "gatsby-remark-prismjs-spectre": "^3.0.0-beta.0",
     "gatsby-source-filesystem": "^5.8.0",
-    "gatsby-transformer-remark": "^6.8.0",
+    "gatsby-transformer-remark": "^6.9.0",
+    "prismjs": "^1.29.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

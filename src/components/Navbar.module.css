@@ -1,0 +1,18 @@
+.aatish {
+    background-image: url(../images/aatish.jpeg);
+    height: 120px;
+    width: 120px;
+    background-size: contain;
+    border-radius: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    min-width: 180px;
+    padding: 10px;
+}
+
+.blog_parent {
+    margin-top: 50px;
+}
