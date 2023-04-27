@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    padding: 10px;
+}
+
+.menu {
+    display: none;
+}
+
+.headercontent {
+    display: flex;
+}
+
+.aatish {
+    background-image: url(../images/aatish.jpeg);
+    height: 100px;
+    width: 100px;
+    background-size: contain;
+    border-radius: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 480px) {
+    .menu {
+        display: inline;
+    }
+
+    .headercontent {
+        margin: auto;
+        justify-content: center;
+    }
+}

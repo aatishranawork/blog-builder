@@ -5,7 +5,7 @@ body {
     width: 100vw;
     overflow: hidden;
     font-family: Georgia, serif;
-    color: #222222;
+    color: #000000;
 }
 
 code {
@@ -17,5 +17,5 @@ code {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #000000;
+    color: #505050; 
 }

@@ -25,11 +25,6 @@ export default function Navbar() {
 
     return (
         <nav>
-            <Link to="/">
-                <div className={styles.aatish}></div>
-                <h2 style={{ textAlign: "center" }}>Aatish Rana</h2>
-            </Link>
-
             <div className={styles.blog_parent}>
                 {posts.map(post => (
                     <article key={post.id}>
