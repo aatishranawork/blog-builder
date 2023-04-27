@@ -28,7 +28,7 @@ export default function Navbar() {
             <div className={styles.blog_parent}>
                 {posts.map(post => (
                     <article key={post.id}>
-                        <Link to={post.fields.slug}>
+                        <Link to={post.fields.slug} style={{ textDecoration: "none" }}>
                             <h5>{post.frontmatter.title}</h5>
                         </Link>
                     </article>
